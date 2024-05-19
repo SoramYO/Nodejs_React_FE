@@ -49,3 +49,43 @@
     background: transparent !important;
   }
 }
+
+.btn-add-user {
+  border: none;
+  outline: none;
+  background: #04aa6d;
+  color: #000;
+
+  &:hover {
+    color: white;
+    background: #04aa6d !important;
+  }
+}
+.btn-close {
+  color: #000;
+  right: 20px !important;
+
+  &:hover {
+    color: white !important;
+  }
+}
+.btn-submit {
+  border: none;
+  outline: none;
+  color: #000;
+  background: #04aa6d;
+
+  &:hover {
+    color: white;
+    background: #04aa6d !important;
+  }
+}
+.btn-submit-close {
+  border: none;
+  outline: none;
+  color: #000;
+  background: grey;
+  &:hover {
+    color: white;
+  }
+}

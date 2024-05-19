@@ -28,7 +28,9 @@
     "menu": {
         "system": {
             "header": "Hệ thống",
+            "Manager User": "Quản lý người dùng",
             "system-administrator": {
+                "Manager User": "Quản lý người dùng",
                 "header": "Quản trị hệ thống",
                 "user-manage": "Quản lý người sử dụng",
                 "product-manage": "Quản lý gói",

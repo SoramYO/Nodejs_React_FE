@@ -6,4 +6,20 @@ const handleLoginApi = (userEmail, userPassword) => {
 const getAllUsers = (inputId) => {
     return axios.get(`api/get-all-users?id=${inputId}`);
 }
-export { handleLoginApi, getAllUsers };
+const addNewUserService = (data) => {
+    return axios.post('/api/create-new-user', data);
+}
+const deleteUserService = (userId) => {
+    // return axios.delete('/api/delete-user', { id: userId });
+    return axios.delete('/api/delete-user'
+        , {
+            data: {
+                id: userId
+            }
+        });
+}
+const editUserService = (inputData) => {
+    return axios.put('/api/update-user', inputData);
+}
+
+export { handleLoginApi, getAllUsers, addNewUserService, deleteUserService, editUserService };
